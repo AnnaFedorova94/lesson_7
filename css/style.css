@@ -1,0 +1,69 @@
+﻿@import "null.css";
+/* ======================================================== */
+
+body {
+   font-family: 'OpenSans', sans-serif;
+   font-size: 20px;
+   margin: 0 auto;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+   background: url(../img/body_bg.png) 0 0/30% auto space fixed;
+}
+
+.header {
+   background-color: #959a9b ;
+   padding: 25px 0;
+   margin-bottom: 20px;
+   
+}
+
+.fact {
+margin: 30px;
+padding: 50px;
+background: #e5e8e9 url(../img/1.png) 100% 100% no-repeat;
+}
+
+.bankruptcy {
+   margin: 30px;
+   padding: 50px;
+   background: linear-gradient( rgb(255, 251, 175) 0%, rgb(120, 68, 241) 100%) ;
+}
+
+.compound {
+   margin: 30px;
+   padding: 50px;
+   background: url(../img/bot.png) 10px 10px no-repeat, url(../img/с1.png) top right no-repeat, url(../img/p1.png) bottom right no-repeat, white;
+   }
+
+
+h1{
+   font-weight: bold;
+   font-size: 65px;
+   text-align: center;
+}
+
+h2{
+   font-weight: bold;
+   font-size: 40px;
+}
+
+.text-fact {
+   max-width: 800px;
+   line-height: 26px;
+   padding-top: 30px;
+
+}
+.footer {
+   font-family: "Redressed";
+   background-color: #99dce9 ;
+   padding: 100px;
+}
+.footer-text {
+   border: 5px dashed #050505;
+   max-height: 300px;
+   overflow: scroll;
+   background: url(../img/фон-2.jpg) center no-repeat scroll;
+}
